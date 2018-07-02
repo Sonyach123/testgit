@@ -1,4 +1,5 @@
-Import java.util.Arrays;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class Work{
   public static void main(String []args){
@@ -18,4 +19,44 @@ public class Work{
      System.out.println(Math.pow (a, c) );
     } else
      {
-     System.out.println(a+);
+     System.out.println(a + b - c);
+     }
+     
+         System.out.println(ConditionsUtils.calculate(1, 2, 3));
+         System.out.println(ConditionsUtils.calculate(2, 2, 2));
+         System.out.println(ConditionsUtils.calculate(1, 1, 2));
+         
+         System.out.println(ConditionsUtils.determineCoordinateArea(1, 1));
+         System.out.println(ConditionsUtils.determineCoordinateArea(-1, 1));
+         System.out.println(ConditionsUtils.determineCoordinateArea(-1, -1));
+         System.out.println(ConditionsUtils.determineCoordinateArea(1, -1));
+         System.out.println(ConditionsUtils.determineCoordinateArea(0, 0));
+
+  System.out.println("TASK 2:");
+  
+  System.out.println("Привет");
+  int n = in.nextInt();
+  for (i = 1; i < n; i++);
+  {
+  n = n * i;
+  }
+  System.out.println(n);
+  
+  int n = in.nextInt();
+  int a = 0;
+  while (x != 0)
+  {
+  res = a * 10 + x % 10;
+  x = x / 10;
+  }
+  System.out.println(res);
+  
+  System.out.println("TASK 3:");
+  int x = arr.lenght / 2;
+  int b = x + arr.lenght % 2;
+   for (int i = 0; i < x; i++);
+   {
+   int t = arr[i];
+   arr[i] = arr[ b + i];
+   arr[b + i] = t;
+   }
